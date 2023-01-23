@@ -34,7 +34,6 @@ const expected2 = [
   ["age", 13],
 ];
 
-
 /**
  * Returns a 2d array of key value pairs from the given obj.
  * - Time: O(?).
@@ -44,8 +43,44 @@ const expected2 = [
  *    like [key, val]
  * @returns {output}
  */
-function entries(obj) {
+
   // your code here
-}
+  // remember to pseudocode the steps FIRST!
+  //create an variable result array for us to return in the end,
+  //loop through objects with enhanced for loop;
+  //push the [key, object[key]] into the result array;
+  //return the result array;
+
+  // function entries(obj) {
+//   let result = [];
+//   for (let key in obj) {
+//     result.push([key, obj[key]]);
+//   }
+//   return result;
+// }
+
+// console.log(entries(obj1));
+// console.log(entries(obj2));
 
 // export default entries;
+
+
+// *********2nd solution***********
+
+function entries(obj) {
+  // your code here
+  let answers = [];
+  
+  for (key in obj){
+    if (obj.hasOwnProperty(key)){
+      let subArr = [];
+      subArr.push(key);
+      subArr.push(obj[key]);
+      answers.push(subArr);
+    }
+  }
+  return answers;
+}
+
+console.log(entries(obj1));
+console.log(entries(obj2));

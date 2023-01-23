@@ -45,7 +45,15 @@ function insert(tableName, columnValuePairs) {
  * - Space: O(?).
  */
 function insertFunctional(tableName, columnValuePairs) {
-  // your code here
-}
+    // your code here
+    const columns = Object.keys(columnValuePairs).join(", ");
+  
+    const values = Object.values(columnValuePairs)
+      .map((val) => (typeof val === "string" ? `'${val}'` : val))
+      .join(", ")
+  
+    return `INSERT INTO ${tableName} (${columns}) VALUES (${values});`;
+  }
+  console.log(insertFunctional(table, insertData2));
 
-export { insert, insertFunctional }
+// export { insert, insertFunctional }
