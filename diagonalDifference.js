@@ -59,7 +59,7 @@ function diagonalDifference(sqrMatrix) {
   }
 }
 
-you need to console.log
+// you need to console.log
 
 // export default diagonalDifference;
 
