@@ -99,7 +99,7 @@ const expected5 = [
 // console.log(findConsecutiveSums(nums2, sum2));
 // console.log(findConsecutiveSums(nums3, sum3));
 
-// **************another sol**********************
+// **************another sol********************
 function findConsecutiveSums(nums, targetSum) {
   let start = 0;
   let end = 1;
