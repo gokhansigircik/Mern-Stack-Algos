@@ -63,7 +63,7 @@ function diagonalDifference(sqrMatrix) {
 
 // export default diagonalDifference;
 
-// ***********solutiuon 2********
+// ***********solutiuon 2*****
 
 function diagonalDifference(sqrMatrix) {
   // declare two index variable for left and right
