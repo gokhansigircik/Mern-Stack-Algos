@@ -100,7 +100,7 @@ const expected4 = [
  * @returns {Array<Objects>} The matched items.
  */
 
-************solution 1*************
+// ************solution 1*************
 
   // function functionalFilterByKey(items, searchFor, searchBy) {
   //   let expected = [];
