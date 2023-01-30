@@ -36,6 +36,7 @@ const expected3 = [];
  * @callback cb A callback function that expects to receive an array element.
  * @returns {Array<any>} The given array with only the remaining items.
  */
+// tell what is your going to do first and explain it. use because
 
   function dropIt(arr, cb) {
     const newArr = []
