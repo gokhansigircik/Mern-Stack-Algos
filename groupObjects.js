@@ -80,7 +80,16 @@ const expected = {
  * @returns {Object<string, Array<Object>>} The hash category hash table with
  *    string keys and array of objects as values.
  */
+
 function groupObjects(items) {
-  // your code here
+  const groupArrayObject = items.reduce((group, item) => {
+    let { category } = item;
+    // console.log("this is group",group)
+    // console.log("this is current ARRAY", item)
+    category = category.toLowerCase();
+    group[category] = group[category] ?? [];
+    group[category].push(item);
+    return group;
+  }, {});
+  console.log(groupArrayObject);
 }
-export { groupObjects };
