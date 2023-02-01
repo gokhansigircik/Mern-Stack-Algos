@@ -73,3 +73,28 @@ lengthOfLongestSubString(str1)
 lengthOfLongestSubString(str2)
 lengthOfLongestSubString(str3)
 lengthOfLongestSubString(str4)
+
+
+// ********second solution ************
+
+// function lengthOfLongestSubString(str) {
+//   // your code here
+//   let subString = "";
+//   let max = 0;
+//   for (let i = 0; i < str.length; i++) {
+//       subString += str[i];
+
+//       for (let j = i + 1; j < str.length; j++) {
+//           if (!subString.includes(str[j])) {
+//               subString += str[j];
+//           } else {
+//               break;
+//           }
+//       }
+
+//       max = Math.max(max, subString.length);
+//       subString = ""
+//   }
+
+//   return max;
+// }
