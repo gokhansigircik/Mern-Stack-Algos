@@ -67,3 +67,22 @@ console.log(containerWithMostWater(heights1));
 console.log(containerWithMostWater(heights2));
 console.log(containerWithMostWater(heights3));
 console.log(containerWithMostWater(heights4));
+
+
+// ************2nd**********
+
+// function containerWithMostWater(heights) {
+//   // your code here
+//   let max = 0;
+//   let area = 0;
+
+//   for(let i = 0; i < heights.length; i++){
+//       for(let j = i + 1; j < heights.length; j++){
+
+//           heights[i] > heights[j] ? area = (j-i) * heights[j] : area = (j-i) * heights[i]
+//           max = Math.max(max, area)
+//       }
+//   }
+
+//   return max
+// }
