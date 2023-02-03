@@ -69,7 +69,7 @@ console.log(containerWithMostWater(heights3));
 console.log(containerWithMostWater(heights4));
 
 
-// ************2nd**********
+// ************2nd*****
 
 // function containerWithMostWater(heights) {
 //   // your code here

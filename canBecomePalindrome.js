@@ -4,7 +4,7 @@
   return whether or not it's possible to make a palindrome out of the string's characters
   What is it about a string that makes it possible for it to be a palindrome?
   Determine whether or not it is possible for the string's characters to be
-  rearranged into a palindrome.
+  rearranged into a palindrome
   */
 
 // racecar

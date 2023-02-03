@@ -40,7 +40,7 @@ const expected6 = false;
 
   function canStringBecomePalindrome(str) {
     // create a "frequency table"
-    // that tracks even or odd occurrences
+    // that tracks even or odd occurrence
     // for each char. you can only have
     // one char that's odd
     if(str === "") {
