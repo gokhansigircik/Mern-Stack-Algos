@@ -68,7 +68,7 @@ console.log(compareVersionNumbers(test4V1, test4V2));
 console.log(compareVersionNumbers(test5V1, test5V2));
 console.log(compareVersionNumbers(test6V1, test6V2));
 
-// *******************solution************
+// *******************1 solution************
 // function compareVersionNumbers(v1, v2) {
 //   const v1Reduced = v1.split('.').join("").split("0").join("")
 //   const v2Reduced = v2.split('.').join("").split("0").join("")
@@ -84,7 +84,7 @@ console.log(compareVersionNumbers(test6V1, test6V2));
 // }
 
 
-// ****************3rd sol****************
+// ****************3rd solution****************
 // function compareVersionNumbers(v1, v2) {
 //   const v1Arr = v1.split('.');
 //   const v2Arr = v2.split('.');
