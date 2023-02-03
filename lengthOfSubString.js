@@ -75,7 +75,7 @@ lengthOfLongestSubString(str3)
 lengthOfLongestSubString(str4)
 
 
-// ********second solution ************
+// ********second solution *********
 
 // function lengthOfLongestSubString(str) {
 //   // your code here

@@ -27,7 +27,7 @@ const expected2 =
   "INSERT INTO users (first_name, last_name, age, is_admin) VALUES ('John', 'Doe', 30, false);";
 // Explanation: no quotes around the int or the bool, technically in SQL the bool would become a 0 or 1, but don't worry about that here.
 
-/**
+/*****
  * Generates a SQL insert statement from the inputs
  * - Time: O(?).
  * - Space: O(?).

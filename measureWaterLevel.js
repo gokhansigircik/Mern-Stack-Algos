@@ -31,7 +31,7 @@ const expected7 = -1;
 const riverLevels8 = [42];
 const expected8 = -1;
 
-/**
+/*****
  * It ain't much, but it's honest work. A worker who measures water level
  * fluctuations in a river is asked to find the largest fluctuation in water
  * levels during a day, but only for rises in water levels.
