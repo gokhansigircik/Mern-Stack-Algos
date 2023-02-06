@@ -113,4 +113,4 @@ loop through the strings ( loop until the end of S string)
 // console.log(backspaceStringCompare(S3, T3))
 // console.log(backspaceStringCompare(S4, T4))
 console.log(
-    backspaceStringCompare(S5, T5))
+    backspaceStringCompare(S5, T5));
