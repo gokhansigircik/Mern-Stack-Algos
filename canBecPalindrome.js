@@ -70,9 +70,9 @@ const expected6 = false;
     return true
 }
 
-console.log(canStringBecomePalindrome(str1))
-console.log(canStringBecomePalindrome(str2))
-console.log(canStringBecomePalindrome(str3))
+console.log(canStringBecomePalindrome(str1));
+console.log(canStringBecomePalindrome(str2));
+console.log(canStringBecomePalindrome(str3));
 console.log(canStringBecomePalindrome(str4))
 console.log(canStringBecomePalindrome(str5))
 console.log(canStringBecomePalindrome(str6))
